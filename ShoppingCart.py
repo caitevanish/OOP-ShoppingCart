@@ -6,7 +6,7 @@ class Shopping_cart:
 
   #calculate and return current total of all products in cart
 
-  # def calc_cart():
+  def calc_cart():
     # self.
     #items in cart
     #price of items
@@ -15,7 +15,8 @@ class Shopping_cart:
     pass
 
   #Add new items to cart
-  def add_to_cart():
+  def add_to_cart(self, product_name):
+    self.product_name = product_name
     #append items in list
     pass
 

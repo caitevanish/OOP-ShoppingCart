@@ -1,6 +1,4 @@
 
-
-
 class Product:
 
   def __init__(self, product_name, price, category):
@@ -10,8 +8,10 @@ class Product:
 
   def candy_list():
    
- product_list = ['Gummy Bears', 'Caramel bon-bons', 'Salt Water Taffy']
-    price = [2, 5, 4]
-    category = ['gummy', 'chocolate', 'misc.']      
+product_list = ['Gummy Bears', 'Caramel bon-bons', 'Salt Water Taffy']
+
+price = [2, 5, 4]
+
+category = ['gummy', 'chocolate', 'misc.']      
 
 

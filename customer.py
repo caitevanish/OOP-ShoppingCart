@@ -17,7 +17,9 @@ class Customer:
     pass
 
 
-  def view_cart():
+  def view_cart(self):
+    for items in shopping_cart:
+      print(item)
     #loop cart's product list
     #print each product to terminal
     pass

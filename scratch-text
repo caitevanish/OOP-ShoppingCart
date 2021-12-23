@@ -1,0 +1,12 @@
+Theme: Candy store!
+
+Product (candy, price, category)
+-gummy bears, $2.00, gummies
+-caramel bon-bons, $5.00, chocolate
+-salt water taffy, $4.00, misc.
+
+customer:
+-Charlie
+-Mike
+-Veruca
+

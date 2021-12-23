@@ -5,7 +5,9 @@ class Shopping_cart:
     self.products = ['item1', ' item2', 'item3']
 
   #calculate and return current total of all products in cart
-  def calc_cart():
+
+  # def calc_cart():
+    # self.
     #items in cart
     #price of items
     #add items together

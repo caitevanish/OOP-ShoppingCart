@@ -8,20 +8,22 @@ customer_1 = Customer("Charlie")
 print(customer_1.customer_name)
 
 # -- [SHOPPING CART] Call the customer’s add product to shopping cart method three times and add the three products objects you create
-customer_1.add_to_cart("Gummy Bears")
-customer_1.add_to_cart("Bon-Bons")
-customer_1.add_to_cart("Taffy")
+customer_1.add_to_cart("Gummy Bears", 2, "gummies")
+customer_1.add_to_cart("Bon-Bons", 5, "chocolate")
+customer_1.add_to_cart("Taffy", 4, "misc")
 
 
-# [CUSTOMER] Call the customer’s view products method
+# -- [CUSTOMER] Call the customer’s view products method
 customer_1.view_cart()
 
 
-# [] Call the customer’s shopping cart’s get cart total method.
-# Capture the total the method returns in a variable and print to the terminal
+# -- [] Call the customer’s shopping cart’s get cart total method.
+customer_1.get_cart_total
 
-# [] Call the customer’s shopping cart’s empty cart method
+# -- [] Capture the total the method returns in a variable and print to the terminal
 
-# [] Check if all products have been removed from the shopping cart
+# -- [] Call the customer’s shopping cart’s empty cart method
+
+# -- [] Check if all products have been removed from the shopping cart
 
 #
